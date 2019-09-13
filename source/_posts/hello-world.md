@@ -4,6 +4,12 @@ tags:
 categories: []
 date: 2017-03-07 22:07:00
 ---
+--TEST
+tags:
+  - Test
+categories: []
+date: 2017-03-07 22:07:00
+---
 Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 
 ## Quick Start
@@ -37,5 +43,6 @@ More info: [Generating](https://hexo.io/docs/generating.html)
 ``` bash
 $ hexo deploy
 ```
+以上仅仅参考，具体可看官方文档！
 
 More info: [Deployment](https://hexo.io/docs/deployment.html)
