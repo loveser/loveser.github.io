@@ -4,9 +4,7 @@ on:
 
     branches:
 
-      - '*'
-
-      - '!master'
+      - 'blog_source'
 
 name: Deploy
 
