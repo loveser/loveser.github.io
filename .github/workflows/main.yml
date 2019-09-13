@@ -22,7 +22,7 @@ jobs:
 
     - name: Clean
 
-      uses: heowc/action-hexo@master
+      uses: loveser/action-hexo@master
 
       with:
 
@@ -30,7 +30,7 @@ jobs:
 
     - name: Generate
 
-      uses: heowc/action-hexo@master
+      uses: loveser/action-hexo@master
 
       with:
 
@@ -38,7 +38,7 @@ jobs:
 
     - name: Deploy
 
-      uses: heowc/action-hexo@master
+      uses: loveser/action-hexo@master
 
       env:
 
