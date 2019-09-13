@@ -1,0 +1,51 @@
+on:
+
+  push:
+
+    branches:
+
+      - '*'
+
+      - !master
+
+name: Deploy
+
+jobs:
+
+  build:
+
+    name: Build
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - name: Clean
+
+      uses: heowc/action-hexo@master
+
+      with:
+
+        args: clean
+
+    - name: Generate
+
+      uses: heowc/action-hexo@master
+
+      with:
+
+        args: generate
+
+    - name: Deploy
+
+      uses: heowc/action-hexo@master
+
+      env:
+
+        EMAIL: xiaoludxl.2010@gmail.com
+
+        NAME: loveser
+
+      with:
+
+        args: deploy
