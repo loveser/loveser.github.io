@@ -10,7 +10,11 @@ author: John Doe
 language: zh-Hans
 timezone:
 
+# hexo-admin authentification
 admin:
+  username: xiaolu
+  password_hash: $2a$10$q8TTnQd8PF4NiBor5k6lqO0jEjUwAvHQnnmqTBXkCle/M5QmmXmVa
+  secret: adb!ext34@ad
   deployCommand: './hexo-deploy.sh'
 
 # URL
