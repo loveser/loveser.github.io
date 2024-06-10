@@ -13,8 +13,8 @@ timezone:
 # hexo-admin authentification
 admin:
   username: xiaolu
-  password_hash: $2a$10$q8TTnQd8PF4NiBor5k6lqO0jEjUwAvHQnnmqTBXkCle/M5QmmXmVa
-  secret: adb!ext34@ad
+  password_hash: $2a$10$U.YwfpJZ8BXrhjZjIWHEEeq6GY2l2edsn8iJdDFISvgk1.NWHHnU6
+  secret: xiaolu
   deployCommand: './hexo-deploy.sh'
 
 # URL
